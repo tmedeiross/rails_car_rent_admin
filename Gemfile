@@ -11,7 +11,8 @@ gem 'rails', '~> 5.1.4'
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', github: 'sferik/rails_admin'
 gem 'rails_admin_rollincode', '~> 1.0'
-gem "devise"
+# gem "devise"
+gem 'devise', git: 'https://github.com/plataformatec/devise'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
